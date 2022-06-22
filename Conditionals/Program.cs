@@ -10,9 +10,9 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
-            var number1 = 10;
+            var number1 = 11;
             if (number1 == 10) Console.WriteLine("Sayı 10dur");
-            else if (number1 == 20) Console.WriteLine("Sayı 10 değildir");
+            else Console.WriteLine("Sayı 10 değildir");
             Console.ReadLine();
         }
     }
