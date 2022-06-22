@@ -12,6 +12,8 @@ namespace Conditionals
         {
             var number1 = 10;
             if (number1 == 10) Console.WriteLine("Sayı 10dur");
+            else if (number1 == 20) Console.WriteLine("Sayı 10 değildir");
+            Console.ReadLine();
         }
     }
 }
