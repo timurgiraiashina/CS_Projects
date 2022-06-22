@@ -21,9 +21,12 @@ namespace CS_Projects
             var degisken = 10;//eğer object ile degisken kelimesini kullansaydık birden fazla değer tutabilirdi
             //degisken = "degisken"; //hata verir çünkü var ile sadece 1 atama yapılabilir
 
-            Console.WriteLine("long veri tipi max pozitif sayı {0}", number2);
+            Console.WriteLine(number1+" "+number2+" " + number3+" "+number4+" "+number5);
+            Console.WriteLine(degil);
+            Console.WriteLine(number6);
+            Console.WriteLine(number7);
+            Console.WriteLine(degisken);
 
-            Console.WriteLine("Integer veri tipi pozitif max sayı {0}",number1);
             Console.ReadLine();
         }
     }
